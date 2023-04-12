@@ -1,0 +1,16 @@
+.kondrai-content-invite {
+  padding: 20px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (max-width: 500px) {
+  .kondrai-content-invite {
+    padding: 20px;
+  }
+}
+
+.event-list {
+  padding-left: 25px;
+}

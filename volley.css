@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.head {
+  font-size: xx-large;
+}
+
+.finals {
+  font-size: x-large;
+}
+
+.semis {
+  font-size: large;
+}

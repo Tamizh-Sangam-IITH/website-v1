@@ -1,0 +1,12 @@
+.donate {
+  /* background-color: red; */
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.donation-text {
+  font-size: larger;
+}

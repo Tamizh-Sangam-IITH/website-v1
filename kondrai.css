@@ -1,0 +1,41 @@
+.pdf {
+  padding-left: 10%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 90%;
+  height: 75vh;
+}
+
+@media (max-width: 450px) {
+  .pdf {
+    padding-left: 0;
+    width: 100%;
+  }
+}
+
+.kondrai-content-invite {
+  padding: 20px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (max-width: 500px) {
+  .kondrai-content-invite {
+    padding: 20px;
+  }
+}
+
+.content-list {
+  padding-left: 25px;
+}
+
+.kondrai-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  font-weight: bolder;
+  /* text-align: center; */
+}

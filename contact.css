@@ -1,0 +1,78 @@
+.centeringgg {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.contact {
+  background-color: none;
+}
+.contact-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.contact-person {
+  border: 1px solid;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-right: 10px;
+  width: 600px;
+}
+.contact-person img {
+  width: 160px;
+  height: 165px;
+  object-fit: cover;
+}
+.contact-person-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.contact-person-details a,
+.contact-person-details p {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+}
+.contact-person-details a:hover {
+  color: blue;
+}
+@media (max-width: 1250px) {
+  .contact-list {
+    grid-template-columns: 1fr;
+  }
+  .contact-person {
+    width: 600px;
+  }
+}
+@media (max-width: 650px) {
+  .contact-person {
+    width: 450px;
+  }
+  .contact-person-details a,
+  .contact-person-details p {
+    font-size: 25px;
+  }
+}
+@media (max-width: 500px) {
+  .contact-person {
+    width: 450px;
+  }
+  .contact-person-details a,
+  .contact-person-details p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 460px) {
+  .contact-person {
+    width: 360px;
+  }
+  .contact-person-details a,
+  .contact-person-details p {
+    font-size: 16px;
+  }
+}
