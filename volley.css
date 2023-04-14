@@ -11,15 +11,20 @@
   height: 450px;
   object-fit: cover;
 }
-@media (max-width: 1010px) {
-  .volley-pic {
-    width: 100%;
-  }
-}
-
 .volley-teams {
   width: 1000px;
   height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 1010px) {
+  .volley-pic {
+    width: 100%;
+    height: auto;
+  }
+  .volley-teams {
+    width: 100%;
+  }
 }
 
 .bottom {
