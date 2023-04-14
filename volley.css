@@ -16,6 +16,12 @@
     width: 100%;
   }
 }
+
+.volley-teams {
+  width: 1000px;
+  height: auto;
+}
+
 .bottom {
   object-position: 10% 90%;
 }
@@ -30,4 +36,8 @@
 
 .semis {
   font-size: large;
+}
+
+.padding-top {
+  padding-top: 10px;
 }

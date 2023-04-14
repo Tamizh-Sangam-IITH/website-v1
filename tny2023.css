@@ -1,0 +1,18 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.invitation {
+  width: 1000px;
+  object-fit: cover;
+}
+
+@media (max-width: 1010px) {
+  .invitation {
+    width: 100%;
+  }
+}
