@@ -24,9 +24,25 @@
   font-weight: 900;
   height: 80px;
 }
+@media (max-width: 500px) {
+  .about-us-heading p {
+    font-size: 30px;
+  }
+  .about-us-heading button {
+    min-width: 80px;
+  }
+}
+@media (max-width: 300px) {
+  .about-us-heading p {
+    font-size: 25px;
+  }
+  .about-us-heading button {
+    min-width: 70px;
+    height: 30px;
+  }
+}
 .about-us-heading button {
   display: flex;
-  /* background: #b6b6b6; */
   align-items: center;
   justify-content: center;
   color: #9c9c9c;
