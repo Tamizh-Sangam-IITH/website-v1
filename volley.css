@@ -6,6 +6,20 @@
   padding-top: 10px;
 }
 
+.volley-pic {
+  width: 1000px;
+  height: 450px;
+  object-fit: cover;
+}
+@media (max-width: 1010px) {
+  .volley-pic {
+    width: 100%;
+  }
+}
+.bottom {
+  object-position: 10% 90%;
+}
+
 .head {
   font-size: xx-large;
 }
